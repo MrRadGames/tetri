@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1065634637501584081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1065634637501584082}
+  - component: {fileID: 1065634637501584083}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1065634637501584082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065634637501584081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 21.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1065634637501584083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065634637501584081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15098cb9b11a4f468772b66a3ae1e66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tetrominoOptions:
+  - {fileID: 4275578148588059861, guid: f4f003b11b1ad7f40a6675d2d320767e, type: 3}
+  - {fileID: -760026812834443310, guid: 620604cf1e68b0241b32b4fcfca4ff8f, type: 3}
+  - {fileID: -760026812834443310, guid: 7702e87c7a953ed4a8ceae361897e511, type: 3}
+  - {fileID: -760026812834443310, guid: d5c92e529137ada4cb34f4db67d51d51, type: 3}
+  - {fileID: -760026812834443310, guid: 37395634462102443a9d73bd8c414830, type: 3}
+  - {fileID: -760026812834443310, guid: f603cf51f090fa74bbd415843e59aaff, type: 3}
+  - {fileID: -760026812834443310, guid: e499bf8e341b2034087f7d652136e83f, type: 3}
+  lineManager: {fileID: 0}
+  previewTetromino: {fileID: 0}
+  previewSquare: {fileID: 797335831439761604, guid: 64db92b875f82894880a0155e388266f, type: 3}
